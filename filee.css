@@ -1,0 +1,36 @@
+body {
+    background-image: url("bg.png");
+    margin: 0; /* Remove default margin */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li:last-child {
+    margin-right: 170px; /* Add margin after the last list item (CONTACT) */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    margin-left: 100px; /* Add margin to the left of the logo */
+}
+
